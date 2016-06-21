@@ -1,0 +1,45 @@
+
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: repeat-y;
+
+}
+h1{color:#892E85;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}/*asi se ponen los comentarios en css*/
+
+h2{color:#36A9A5;
+font-family: 'Indie Flower', cursive;}
+
+img{
+  width: 100px; /*asi defines ancho de tus imagenes pero se hace proporcional, lo haces en pixeles o en %*/
+  height: auto; /*asi defines alto de tus imagenes, aqui no puedes usa % xq no hay referencia*/
+}
+
+.bullets{
+  width: 50px;
+}
+.principal{
+  width: 300px;
+}
+
+#devf{
+  width: 150px
+}
+
+.tops {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  color: black;
+}
+
+.textop{text-align: center;
+}
+
+.tops{
+  width: 200px;
+  margin: auto;
+  text-align: left;
+}
